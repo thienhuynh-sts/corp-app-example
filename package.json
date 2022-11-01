@@ -1,0 +1,15 @@
+{
+  "name": "corp-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev-admin": "yarn workspace @branch/admin-app dev",
+    "dev-employee": "yarn workspace @branch/web-app dev",
+    "dev-story": "yarn workspace story-app storybook"
+  },
+  "workspaces": [
+    "packages/**"
+  ]
+}
